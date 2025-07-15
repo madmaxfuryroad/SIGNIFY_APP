@@ -22,31 +22,31 @@ struct ContentView: View {
             // MARK: – Search / Gallery Tab
             NavigationView {
                 VStack {
-                    Text("Search or Gallery")
+                    Text("Translator")
                         .font(.title2)
                         .foregroundColor(.secondary)
                 }
-                .navigationTitle("Explore")
+                .navigationTitle("Translator")
                 .navigationBarTitleDisplayMode(.inline)
             }
             .tabItem {
                 Image(systemName: "magnifyingglass")
-                Text("Explore")
+                Text("Translator")
             }
 
             // MARK: – Profile / Settings Tab
             NavigationView {
                 VStack {
-                    Text("Profile & Settings")
+                    Text("Dictionary")
                         .font(.title2)
                         .foregroundColor(.secondary)
                 }
-                .navigationTitle("Profile")
+                .navigationTitle("Dictionary")
                 .navigationBarTitleDisplayMode(.inline)
             }
             .tabItem {
                 Image(systemName: "person.crop.circle")
-                Text("Profile")
+                Text("Dictionary")
             }
         }
     }

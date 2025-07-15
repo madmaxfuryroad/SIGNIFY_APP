@@ -10,7 +10,7 @@ let homeCardData: [HomeCardModel] = [
     
     HomeCardModel(title: "Say Hello!",
                   image: "hello_HomeCard",
-                  caption: "Try something new! cInstead of verbally greeting someone, practice saying hello in Sign Language!",
+                  caption: "Try something new! Instead of verbally greeting someone, practice saying hello in Sign Language!",
                   buttonText: "Say Hello",
                   gradientColors: [Color("Secondary"), Color("Third")]),
     
