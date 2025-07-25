@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A62FDA922E1F4E8F00DF5BF8 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62FDA912E1F4E8F00DF5BF8 /* Dictionary.swift */; };
+		A62688942E2E0B3E00889BB7 /* TranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62688932E2E0B3D00889BB7 /* TranslatorView.swift */; };
+		A626889A2E2E0E4C00889BB7 /* TESTING2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A62688992E2E0E4C00889BB7 /* TESTING2.mlmodel */; };
+		A62FDA922E1F4E8F00DF5BF8 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62FDA912E1F4E8F00DF5BF8 /* DictionaryView.swift */; };
 		A62FDA942E1F4F2800DF5BF8 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62FDA932E1F4F2800DF5BF8 /* DictionaryModel.swift */; };
 		A62FDA962E1F509000DF5BF8 /* DictionaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62FDA952E1F509000DF5BF8 /* DictionaryData.swift */; };
 		A62FDA982E1F542B00DF5BF8 /* DicionaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62FDA972E1F542B00DF5BF8 /* DicionaryCardView.swift */; };
@@ -22,7 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A62FDA912E1F4E8F00DF5BF8 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		A62688932E2E0B3D00889BB7 /* TranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorView.swift; sourceTree = "<group>"; };
+		A62688992E2E0E4C00889BB7 /* TESTING2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TESTING2.mlmodel; sourceTree = "<group>"; };
+		A626889B2E2E0E8A00889BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A62FDA912E1F4E8F00DF5BF8 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		A62FDA932E1F4F2800DF5BF8 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
 		A62FDA952E1F509000DF5BF8 /* DictionaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryData.swift; sourceTree = "<group>"; };
 		A62FDA972E1F542B00DF5BF8 /* DicionaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicionaryCardView.swift; sourceTree = "<group>"; };
@@ -67,6 +72,8 @@
 		A647B2DA2DB8A40F007A6EC2 /* SIGNify */ = {
 			isa = PBXGroup;
 			children = (
+				A626889B2E2E0E8A00889BB7 /* Info.plist */,
+				A62688992E2E0E4C00889BB7 /* TESTING2.mlmodel */,
 				A6E0DE012DF790AD00EDDA10 /* Data */,
 				A6E0DDFE2DF78FDE00EDDA10 /* Model */,
 				A66DA18B2DF14B05005BCBF5 /* View */,
@@ -91,8 +98,9 @@
 			children = (
 				A66DA18C2DF14B39005BCBF5 /* HomeCardView.swift */,
 				A6C147352E15FBBE00E24602 /* OurMissionView.swift */,
-				A62FDA912E1F4E8F00DF5BF8 /* Dictionary.swift */,
+				A62FDA912E1F4E8F00DF5BF8 /* DictionaryView.swift */,
 				A62FDA972E1F542B00DF5BF8 /* DicionaryCardView.swift */,
+				A62688932E2E0B3D00889BB7 /* TranslatorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,7 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C147362E15FBBE00E24602 /* OurMissionView.swift in Sources */,
-				A62FDA922E1F4E8F00DF5BF8 /* Dictionary.swift in Sources */,
+				A626889A2E2E0E4C00889BB7 /* TESTING2.mlmodel in Sources */,
+				A62FDA922E1F4E8F00DF5BF8 /* DictionaryView.swift in Sources */,
 				A6E0DE032DF790BD00EDDA10 /* HomeCardData.swift in Sources */,
 				A647B2DE2DB8A40F007A6EC2 /* ContentView.swift in Sources */,
 				A6E0DE002DF78FF200EDDA10 /* HomeCardModel.swift in Sources */,
@@ -195,6 +204,7 @@
 				A62FDA982E1F542B00DF5BF8 /* DicionaryCardView.swift in Sources */,
 				A62FDA942E1F4F2800DF5BF8 /* DictionaryModel.swift in Sources */,
 				A647B2DC2DB8A40F007A6EC2 /* SIGNifyApp.swift in Sources */,
+				A62688942E2E0B3E00889BB7 /* TranslatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,8 +338,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SIGNify/Preview Content\"";
+				DEVELOPMENT_TEAM = R3574RZJR8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SIGNify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,8 +368,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SIGNify/Preview Content\"";
+				DEVELOPMENT_TEAM = R3574RZJR8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SIGNify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

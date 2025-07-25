@@ -17,17 +17,19 @@ struct ContentView: View {
             .tabItem {
                 Image(systemName: "house.fill")
                 Text("Home")
-            }
+            }.multilineTextAlignment(.center)
 
             // MARK: – Search / Gallery Tab
             NavigationView {
-                VStack {
-                    Text("Translator")
-                        .font(.title2)
-                        .foregroundColor(.secondary)
-                }
-                .navigationTitle("Translator")
-                .navigationBarTitleDisplayMode(.inline)
+//                VStack {
+//                    Text("Translator")
+//                        .font(.title2)
+//                        .foregroundColor(.secondary)
+//                }
+//                .navigationTitle("Translator")
+//                .navigationBarTitleDisplayMode(.inline)
+                
+                TranslatorView()
             }
             .tabItem {
                 Image(systemName: "magnifyingglass")
@@ -37,12 +39,9 @@ struct ContentView: View {
             // MARK: – Profile / Settings Tab
             NavigationView {
                 VStack {
-                    Text("Dictionary")
-                        .font(.title2)
-                        .foregroundColor(.secondary)
+                    DictionaryView()
                 }
-                .navigationTitle("Dictionary")
-                .navigationBarTitleDisplayMode(.inline)
+                
             }
             .tabItem {
                 Image(systemName: "person.crop.circle")
